@@ -1,0 +1,10 @@
+.place__text_newhampshire {
+  margin-top: 70px;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    .place__text_newhampshire {
+      margin-top: 0;
+    }
+  

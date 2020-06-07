@@ -1,0 +1,15 @@
+.website__link {
+  color: #FFFFFF;
+  font-size: 18px;
+  transition-duration: .5s;
+}
+
+.website__link:hover {
+  opacity: .8;
+}
+
+@media screen and (max-width: 320px) {
+  .website__link {
+    display: none;
+   }
+}

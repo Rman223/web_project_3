@@ -1,0 +1,10 @@
+.photo {
+  margin-top: 76px;
+}
+
+
+  @media screen and (max-width: 320px) {
+    .photo {
+      margin-top: 48px;
+    } 
+  }

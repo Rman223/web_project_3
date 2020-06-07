@@ -1,0 +1,26 @@
+@import url(./__item/grid__item.css);
+@import url(./__item-photo/grid__item-photo.css);
+
+
+.grid {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid {
+    margin-left: 48px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    margin-left: 24px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .grid {
+    margin: 12px 16px;
+  }
+}

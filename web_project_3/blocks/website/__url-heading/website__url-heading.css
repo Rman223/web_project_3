@@ -1,0 +1,12 @@
+.website__url-heading {
+  color: #AAAAAA;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+
+  @media screen and (max-width: 320px) {
+    .website__url-heading {
+      display: none;
+    }
+  }

@@ -1,0 +1,14 @@
+.footer__copyright-name {
+  color: #FFFFFF;
+  font-size: 14px; 
+  
+ }
+
+ 
+  @media screen and (max-width: 320px) {
+    .footer__copyright-name {
+    
+      font-size: 14px;
+       
+    }
+  }
