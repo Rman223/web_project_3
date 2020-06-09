@@ -1,0 +1,36 @@
+@import url(./__title/place__title.css);
+@import url(./__heading/place__heading.css);
+@import url(./__image-pic/place__image-pic.css);
+@import url(./__text/place__text.css);
+@import url(./__text/_newhampshire/place__text_newhampshire.css);
+@import url(./__paragraph-top/place__paragraph-top.css);
+@import url(./__paragraph-mid/place__paragraph-mid.css);
+@import url(./__paragraph-bottom/place__paragraph-bottom.css);
+@import url(./__image-pic/_newhampshire/place__image-pic_newhampshire.css);
+
+
+
+.place {
+  display: grid;
+  margin-top: 80px;
+  grid-template-columns: 1fr 1fr;
+  
+
+}
+ /* @media screen and (max-width: 1024px) {
+   .place {
+     grid-template-columns: auto;
+   }
+ }
+  
+ @media screen and ( max-width: 768px) {
+   .place {
+     grid-template-columns: auto;
+   }
+ } */
+  @media screen and (max-width: 425px) {
+    .place {
+      
+      grid-template-columns: auto;
+    }
+  }

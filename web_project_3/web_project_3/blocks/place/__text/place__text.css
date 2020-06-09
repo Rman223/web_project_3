@@ -1,0 +1,23 @@
+.place__text {
+    margin-left: 40px;
+    padding-top: 30px;
+}
+ @media screen and (max-width: 1024px) {
+    .place__text {
+        margin-left: 40px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place__text {
+        margin-left: 28px;
+        padding-top: 0;
+        
+    }
+}
+@media screen and (max-width: 425px) {
+    .place__text {
+        margin-left: 16px;
+        padding-top: 0;
+    }
+}
