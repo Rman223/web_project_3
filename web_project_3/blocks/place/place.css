@@ -11,14 +11,26 @@
 
 
 .place {
-  display: flex;
+  display: grid;
   margin-top: 80px;
-}
-
+  grid-template-columns: 1fr 1fr;
   
-  @media screen and (max-width: 320px) {
+
+}
+ /* @media screen and (max-width: 1024px) {
+   .place {
+     grid-template-columns: auto;
+   }
+ }
+  
+ @media screen and ( max-width: 768px) {
+   .place {
+     grid-template-columns: auto;
+   }
+ } */
+  @media screen and (max-width: 425px) {
     .place {
-      display: flex;
-      flex-direction: column;
+      
+      grid-template-columns: auto;
     }
   }

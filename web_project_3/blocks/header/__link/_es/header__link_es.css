@@ -3,7 +3,7 @@
   margin-left: 18px;
 }
  
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
     .header__link_es {
       text-decoration: none;
       margin-left: 18px;

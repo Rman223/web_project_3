@@ -2,24 +2,24 @@
   color: #FFFFFF;
   font-size: 16px;
   line-height: 26px;
-  width: 484px;
+  max-width: 484px;
   margin-top: 24px;
   margin-bottom: 0;
 } 
   
   @media screen and (max-width: 1024px) {
     .place__paragraph-mid {
-      width: 456px;
+       max-width: 456px; 
     }
   }
   @media screen and (max-width: 768px) {
     .place__paragraph-mid {
-      width: 352px;
+       max-width: 352px; 
       
     }
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 425px) {
     .place__paragraph-mid {
-      width: 288px;
+       width: calc(100% - 16px*2); 
     }
   }
