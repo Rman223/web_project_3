@@ -1,23 +1,23 @@
 .grid__item-photo {
   
   
-  max-width: 284px;
+   max-width: 284px; 
   
 }
 
    @media screen and (max-width: 1024px) {
     .grid__item-photo {
-      max-width: 300px;
+       max-width: 300px; 
       
     }
   }
   @media screen and (max-width: 768px) {
     .grid__item-photo {
-      max-width: 393px;
+       max-width: 353px; 
        }
   } 
-  /* @media screen and (max-width: 425px) {
+   @media screen and (max-width: 425px) {
     .grid__item-photo {
-    max-width: 393px;
+    max-width: 425px;
     }
-  } */
+  } 

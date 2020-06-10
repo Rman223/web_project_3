@@ -1,15 +1,16 @@
-.grid__item {
-    margin: 16px 16px 0 0;
+  .grid__item {
+    margin-top: 16px;
+    margin-right: 16px;
   }
-  .grid__item:nth-child(4n) {
+  /* .grid__item:nth-child(4n) {
     margin-right: 0;
-  }
+  } */
 
   @media screen and (max-width: 1024px) {
     .grid__item {
-      margin: 14px 14px 0 0;
+      /* margin: 14px 0 0 0; */
     }
-    .grid__item:nth-child(3n) {
+    /* .grid__item:nth-child(3n) {
       margin-right: 0;
     }
     .grid__item:nth-child(4n) {
@@ -17,30 +18,29 @@
     }
     .grid__item:nth-child(12) {
       margin-right: 0;
-    }
+    } */
   }
   @media screen and (max-width: 768px) {
     .grid__item {
       margin: 16px 16px 0 0;
-      /* width: 100%; */
+      /* width: 100% */
       
     }
-    .grid__item:nth-child(4n) {
+    /* .grid__item:nth-child(4n) {
       margin-right: 16px;
-    }
+    } */
   }
   @media screen and (max-width: 425px) {
     .grid__item {
-      /* margin: 12px auto 0; */
-      /* width: 100%; */
+      
       margin-top: 12px;
       margin-right: 0;
     }
-    .grid__item:nth-child(4n) {
+    /* .grid__item:nth-child(4n) {
       margin-right: 0;
     }
     .grid__item:nth-child(3n) {
-      margin-right: 0;
+      margin-right: 0; */
     }
-  }
+  } 
  

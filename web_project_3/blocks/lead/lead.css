@@ -1,5 +1,8 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./image/lead__image.css);
+
+
 @import url(./__image/_kalegin-michael/lead__image_kalegin-michael.css);
 @import url(./__caption/lead__caption.css);
 
