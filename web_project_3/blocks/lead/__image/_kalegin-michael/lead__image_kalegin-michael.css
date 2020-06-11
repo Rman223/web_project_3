@@ -1,28 +1,27 @@
 .lead__image_kalegin-michael {
   max-width: 984px;
-  /* max-height: 615px; */
+  object-fit: cover;
+  width: 100%;
+  
   
 }
 
    @media screen and (max-width: 1024px) {
     .lead__image_kalegin-michael {
       max-width: 928px;
-      /* max-height: 580px; */
+      
       
     }  
   }  
   @media screen and (max-width: 768px) {
     .lead__image_kalegin-michael {
-      /* max-width: 928px;
-      max-height: 480px; */
-      /* object-fit: contain; */
+      
       width: 100%;
     } 
 
   }
   @media screen and (max-width: 425px) {
     .lead__image_kalegin-michael {
-      /* max-width: 768px; */
-      /* max-height: 200px; */
+      
     }
   }
