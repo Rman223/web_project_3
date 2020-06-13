@@ -1,28 +1,8 @@
 .grid__item-photo {
   
-  object-fit: cover;
-   max-width: 284px;
+  
    width: 100%; 
   
 }
 
-   @media screen and (max-width: 1024px) {
-    .grid__item-photo {
-       max-width: 300px; 
-      
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .grid__item-photo {
-      
-      max-width: 100%;
-      height: auto;
-      
-      display: block;
-       }
-  } 
-   @media screen and (max-width: 425px) {
-    .grid__item-photo {
-    max-width: 100%;
-    }
-  } 
+  
