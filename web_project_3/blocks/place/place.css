@@ -1,12 +1,16 @@
 @import url(./__title/place__title.css);
-@import url(./__heading/place__heading.css);
+
 @import url(./__image-pic/place__image-pic.css);
-@import url(./__text/place__text.css);
-@import url(./__text/_newhampshire/place__text_newhampshire.css);
-@import url(./__paragraph-top/place__paragraph-top.css);
+
+
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
 @import url(./__paragraph-mid/place__paragraph-mid.css);
-@import url(./__paragraph-bottom/place__paragraph-bottom.css);
-@import url(./__image-pic/_newhampshire/place__image-pic_newhampshire.css);
+
+@import url(./__description/place__description.css);
+@import url(./__website/place__website.css);
+
 
 
 
@@ -14,23 +18,33 @@
   display: grid;
   margin-top: 80px;
   grid-template-columns: 1fr 1fr;
-  
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+ 
 
 }
+
   @media screen and (max-width: 1024px) {
    .place {
      grid-template-columns: 1fr 1fr;
+     grid-column-gap: 32px;
+     
    }
  }
   
  @media screen and ( max-width: 768px) {
    .place {
      grid-template-columns: 1fr 1fr;
+     grid-column-gap: 28px;
+     margin-left: 24px;
+     margin-right: 24px;
    }
  } 
   @media screen and (max-width: 425px) {
     .place {
       
       grid-template-columns: auto;
+      margin-left: 0;
+      margin-right: 0;
     }
   }

@@ -1,10 +1,12 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
-@import url(./image/lead__image.css);
+/* @import url(./image/lead__image.css); */
 
 
 @import url(./__image/_kalegin-michael/lead__image_kalegin-michael.css);
 @import url(./__caption/lead__caption.css);
+
+
 
 @media screen and (max-width: 1024px) {
   .lead {
@@ -15,12 +17,6 @@
   .lead {
     width: 100%;
     
-    
-  }
-}
-@media screen and (max-width: 425px) {
-  .lead {
-   width: 100%;
     
   }
 }
