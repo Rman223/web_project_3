@@ -5,6 +5,7 @@
    color: #FFFFFF;
    margin-left: 18px;
    transition-duration: .5s;
+   text-decoration: none;
 }
 
 .header__link:hover {
