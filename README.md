@@ -1,20 +1,14 @@
-# Project 3: From Portland to Portland
+# Name
+ "From Portland to Portland" 
 
-### Overview
-* Intro
-* Figma
-* Images
+ ## Description
+ This is an interactive website.  The site provides various links to view while viewing the United States.  It is a responsive website that can be viewed on various devices
 
-**Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
-**Figma**
+## Project status
+ this project will be a continuing project. Plans are to continue to update the website with additonal links that can direct viewers to various activities as they cross the United States.
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
-
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+ [Project 3](https://rman223.github.io/web_project_3/index.html "From Portland to Portland")
