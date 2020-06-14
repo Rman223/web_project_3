@@ -1,0 +1,12 @@
+ .header__link_active {
+  text-decoration: underline;
+}
+
+
+@media screen and (max-width: 425px) {
+  .header__link_active {
+    /* font-size: 18px;
+    line-height: 24px; */
+    
+  }
+} 
